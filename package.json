@@ -1,0 +1,15 @@
+{
+  "name": "@merokudao/proxy",
+  "version": "1.0.0",
+  "description": "Simple Proxy Server",
+  "main": "src/index.js",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "express": "^4.18.2",
+    "http-proxy-middleware": "^2.0.6"
+  },
+  "scripts": {
+    "start": "node src/index.js"
+  }
+}
